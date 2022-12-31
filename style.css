@@ -1,0 +1,35 @@
+* {
+    background-color: black;
+    color: white;
+}
+.container {
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clicker {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.generate {
+    height: 50px;
+    width: 175px;
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 0;
+    background-color: red;
+}
+.generate:hover {
+    background-color: rgb(189, 0, 0);
+    border: 1px solid rgb(219, 219, 219);
+}
+.generate:active {
+    background-color: rgb(255, 211, 211);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+.vid-ids {
+    display: none;
+}
